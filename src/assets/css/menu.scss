@@ -1,0 +1,90 @@
+#menu{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 21;
+    //background-color: #171717;
+    top: 0;
+}
+
+.menu__wrapper{
+    padding-top: 158px;
+    padding-left: 215px;
+    padding-right: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        max-height: 414px;
+    }
+    li{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 130%;
+        color: rgba(255, 255, 255, 0.25);
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 72px;
+        transition: all .1s ease;
+        position: relative;
+
+        sup{
+            bottom: 20px;
+            right: 0;
+            position: relative;
+            font-size: 20px;
+        }
+
+        &::before{
+            position: absolute;
+            content: " ";
+            width: 39px;
+            height:3px;
+            background-color: rgba(255, 255, 255, 0.25);
+            top: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            transition: all .2s ease;
+        }
+        &:hover{
+            font-size: 64px;
+            color: white;
+            sup{
+                position: relative;
+                font-size: 30px;
+            }
+            &::before{
+                height:5px;
+                background-color: #fff;
+            }
+        }
+    }
+    .right{
+        b{
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 130%;
+            color: #FFFFFF;
+            max-width: 257px;
+        }
+        .write__me{
+            margin-top: 44px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+       .mail{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 130%;
+            color: rgba(255, 255, 255, 0.15);
+        }
+        img{
+            filter: grayscale(100%);
+            opacity: .1;
+            position: absolute;
+        }
+    }
+}

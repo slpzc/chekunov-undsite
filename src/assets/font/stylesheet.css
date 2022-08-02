@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Chekunovprod';
+    src: url('CBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chekunovprod';
+    src: url('CDemiBold.otf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chekunovprod';
+    src: url('Cmedium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chekunovprod';
+    src: url('CRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
